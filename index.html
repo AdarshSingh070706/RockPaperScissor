@@ -9,16 +9,16 @@
 </head>
 <body class=" bg-amber-50 flex flex-col items-center justify-center m-4 min-h-screen">
   <h1 class=" bg-amber-900 font-bold leading-[36px] text-[40px] p-[10px] rounded-2xl text-white flex items-center justify-center mb-[40px]">Rock Paper Scissor</h1>
-  <div class="">
+  <div class="flex-wrap">
     <button  class="rock-button" ><img class="w-40 h-40  rounded-full " src="src/images/rock.png" height="160" width="180" alt=""></button>
     <button  class="paper-button" ><img class="w-40 h-40 rounded-full " src="src/images/paper.png" height="160" width="180" alt=""></button>
     <button  class="scissor-button" ><img class="w-40 h-40 rounded-full " src="src/images/scissors.png" height="160" width="180" alt=""></button>
   </div>
 
-  <div class="flex flex-col items-center justify-center">
-   <p class=" game-result font-bold text-[28px] m-[20px] text-gray-700 text-[16px] leading-7 rounded-full p-[10px] bg-amber-100"></p>
-  <p class="game-moves font-semibold text-[28px] m-[20px]"></p>
-  <p class="game-score m-[40px] bg-emerald-200 hover:bg-emerald-300 p-[10px] rounded-full"></p>
+  <div class="flex flex-wrap flex-col items-center justify-center">
+   <p class=" game-result font-bold text-[28px] sm:text-4xl m-[20px] text-gray-700 text-[16px] leading-7 rounded-full p-[10px] bg-amber-100"></p>
+  <p class="game-moves font-semibold text-[28px] sm:text-2xl m-[20px]"></p>
+  <p class="game-score m-[40px] bg-emerald-200 hover:bg-emerald-300 sm:text-2xl p-[10px] flex-wrap rounded-full"></p>
   </div>
 
 
