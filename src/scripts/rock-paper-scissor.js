@@ -156,7 +156,7 @@ function playGame(playerMove){
      .innerHTML=result;
 
      document.querySelector('.game-moves')
-     .innerHTML=`You choose:${playerMove}&emsp;&emsp;&emsp;    ${computerMoves}:Computer choose`
+     .innerHTML=`You choose:${playerMove}&emsp;&emsp;&emsp;    Computer choose:${computerMoves}`
 
      updateScore()
     
